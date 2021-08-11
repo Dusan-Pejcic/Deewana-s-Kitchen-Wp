@@ -1,8 +1,5 @@
 jQuery(function($){
-
-
-
-        $('#menu').slicknav();
+  $('#menu').slicknav();
 
 
 var bodyTag = $('body');
