@@ -10,7 +10,7 @@ get_header(); ?>
     <?php
     $bgVideo = get_field('video_background');
      ?>
-    <video class="mobile-d-none" id="home-video-bg" autoplay preload muted src="<?php echo $bgVideo['video_file']; ?>" poster="<?php echo $bgVideo['video_poster_image']; ?>"></video>
+    <video muted class="mobile-d-none" id="home-video-bg" autoplay preload src="<?php echo $bgVideo['video_file']; ?>" poster="<?php echo $bgVideo['video_poster_image']; ?>"></video>
 
     <div class="mobile-bg-img-container">
 
