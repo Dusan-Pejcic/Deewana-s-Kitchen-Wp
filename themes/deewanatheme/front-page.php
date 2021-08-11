@@ -9,12 +9,12 @@ get_header(); ?>
 
     <?php
     $bgVideo = get_field('video_background');
-
      ?>
+    <video class="mobile-d-none" id="home-video-bg" autoplay preload muted src="<?php echo $bgVideo['video_file']; ?>" poster="<?php echo $bgVideo['video_poster_image']; ?>"></video>
 
-    <video class="mobile-d-none" id="home-video-bg" autoplay preload src="<?php echo $bgVideo['video_file']; ?>" poster="<?php echo $bgVideo['video_poster_image']; ?>"></video>
+    <div class="mobile-bg-img-container">
 
-    <div class="mobile-bg-img-container"></div>
+    </div>
 
   </div>
 </div>
@@ -27,7 +27,10 @@ get_header(); ?>
   <div class="text-logo-section container">
     <img src="<?php echo get_template_directory_uri() . '/img\logos\deewana_homepage_heading.svg' ?>" alt="">
   </div>
-  <div class="passepartout passepartout-bottom"></div>
+
+  <div class="passepartout passepartout-bottom">
+
+  </div>
 </div>
 
 
