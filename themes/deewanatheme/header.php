@@ -22,7 +22,8 @@
           </a>
         </div>
 
-        <?php $args = array(
+        <?php 
+        $args = array(
           'theme_location' => 'deewana_main',
           'container' => 'nav',
           'container_class' => 'navigation',

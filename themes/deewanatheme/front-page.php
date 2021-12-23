@@ -20,8 +20,6 @@ get_header(); ?>
 </div>
 
 
-
-
 <div class="passepartout-container">
 
   <div class="text-logo-section container">

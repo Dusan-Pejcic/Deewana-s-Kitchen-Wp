@@ -75,3 +75,21 @@ add_action('wp_enqueue_scripts', 'deewanasScripts' );
 
 require get_template_directory() . '/functions/background_images.php';
  ?>
+
+<?php
+
+//_________________________________ GOOGLE ANALYTICS
+add_action('wp_head', 'wpb_add_googleanalytics');
+function wpb_add_googleanalytics() { ?>
+ 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7DR3GPSW7N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7DR3GPSW7N');
+</script>
+ 
+<?php } ?>
